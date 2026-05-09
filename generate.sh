@@ -45,6 +45,7 @@ env -i PATH=/usr/bin ./Configure \
     no-unit-test \
     no-makedepend \
     shared \
+    no-asm \
     linux-x86_64
 
 env -i PATH=/usr/bin make build_all_generated -j"$(nproc)"
